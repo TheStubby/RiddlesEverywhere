@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.pozadie{
+    margin-top: -5%;
+    background-image: url(fotky/riddler_background_menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+.nazov{
+    margin-top: 5%;
+    text-align: center;
+    color: lawngreen;
+    font-size: 200%;
+    font-family:'Courier New', Courier, monospace;
+}
+.vyber{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 150%;
+    color: lawngreen;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+}
+a:link { text-decoration: none;
+    color: green;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 125%;
+    padding: 15%;
+ }
+ .h3{
+    margin-top: 45%;
+    text-align: center;
+    color: lawngreen;
+    font-size: 250%;
+    font-family:'Courier New', Courier, monospace;
+ }
+
