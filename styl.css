@@ -3,7 +3,7 @@ body{
 }
 .pozadie{
     margin-top: -5%;
-    background-image: url(fotky/riddler_background_menu.png);
+    background-image: url(riddler_background_menu.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
