@@ -16,16 +16,26 @@ body{
     font-size: 200%;
     font-family:'Courier New', Courier, monospace;
 }
-.vyber{
-    position: absolute;
-    margin-left: 4%;
-    margin-top: 10%;
-    font-size: 150%;
-    color: lawngreen;
-    font-family:'Courier New', Courier, monospace;   
-    text-decoration: none;
-}
+
 a:link { text-decoration: none;
+    color: green;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 125%;
+    padding: 15%;
+ }
+ a:visited { text-decoration: none;
+    color: green;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 125%;
+    padding: 15%;
+ }
+ a:hover { text-decoration: none;
+    color: green;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 125%;
+    padding: 15%;
+ }
+ a:active { text-decoration: none;
     color: green;
     font-family:'Courier New', Courier, monospace; 
     font-size: 125%;
@@ -38,4 +48,22 @@ a:link { text-decoration: none;
     font-size: 250%;
     font-family:'Courier New', Courier, monospace;
  }
+ .hadanky{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 150%;
+    color: lawngreen;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+}
+.h2{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 8%;
+    font-size: 200%;
+    color: lawngreen;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+}
 
