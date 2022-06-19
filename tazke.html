@@ -9,18 +9,95 @@
 </head>
 <body>
     <div class="pozadie">
+        <a href="main.html"><h6 class="menu"> Menu</h6></a>
         <ul class="hadanka2">
             <li> Hádanka 1</li>
             <li>Človek ktorý ma vyrobil, ma nepotrebuje, človek ktorý ma používa ma necíti ani nevidí, čo som?</li>
         </ul>
         <ul class="hadanka1">
             <li> Hádanka 2</li>
-            <li>Keď si na mne, si na vrchole, keď si podomnou si zakliaty, čo som?</li>
+            <li>Keď si na mne, si na vrchole, keď si podomnou, si zakliaty, čo som?</li>
         </ul>
         <ul class="hadanka3">
             <li> Hádanka 3</li>
             <li>Polož ma na moju stranu a som všetko, rozrež ma na poly a som nič, čo som?</li>
         </ul>
- 
+        <form class="formular" action="#" id="formular">
+            <label for="odpoved1">Odpoveď 1</label><br>
+            <input type="text" id="odpoved1" name="odpoved1"><br>
+            <input type="submit" value="???">
+        </form>
+        <form class="formular2" action="#" id="formular2">
+            <label for="odpoved2">Odpoveď 2</label><br>
+            <input type="text" id="odpoved2" name="odpoved2"><br>
+            <input type="submit" value="???">
+        </form>
+        <form class="formular3" action="#" id="formular3">
+            <label for="odpoved3">Odpoved 3</label><br>
+            <input type="text" id="odpoved3" name="odpoved3"><br>
+            <input type="submit" value="???">
+          </form>
+          <button class="zobrazit" action="#" id="zobrazit">Ukázať odpovede</button>
+          <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+          <script>
+            $("#formular").on("submit", function(e){
+                var odpoved1= $("#odpoved1").val();
+                if(odpoved1 === "Rakva"){
+                    alert("SPRÁVNA ODPOVEĎ");
+                    
+                }
+                else{
+                    alert("NESPRAVNA ODPOVEĎ");
+                }
+                e.preventDefault();
+            });
+          </script>
+                    <script>
+                        $("#formular2").on("submit", function(e){
+                            var odpoved2= $("#odpoved2").val();
+                            if(odpoved2 === "Rebrík"){
+                                alert("SPRÁVNA ODPOVEĎ");
+                                
+                            }
+                            else{
+                                alert("NESPRAVNA ODPOVEĎ");
+                            }
+                            e.preventDefault();
+                        });
+                      </script>
+                                <script>
+                                    $("#formular3").on("submit", function(e){
+                                        var odpoved3= $("#odpoved3").val();
+                                        if(odpoved3 === "8"){
+                                            alert("SPRÁVNA ODPOVEĎ");
+                                            
+                                        }
+                                        else{
+                                            alert("NESPRAVNA ODPOVEĎ");
+                                        }
+                                        e.preventDefault();
+                                    });
+                                  </script>
+                                                                  <script>
+                                                                    $("#formular3").on("submit", function(e){
+                                                                        var odpoved3= $("#odpoved3").val();
+                                                                        if(odpoved3 === "Obed a večeru"){
+                                                                            alert("SPRÁVNA ODPOVEĎ");
+                                                                            
+                                                                        }
+                                                                        else{
+                                                                            alert("NESPRAVNA ODPOVEĎ");
+                                                                        }
+                                                                        e.preventDefault();
+                                                                    });
+                                                                    $("#zobrazit").on("click", function(e){
+                                
+                                                    alert("1. Rakva 2. Rebrík 3. 8");
+                                
+                                                e.preventDefault();
+                                            });
+                                                                  </script>
+                                
+
 </body>
 </html>

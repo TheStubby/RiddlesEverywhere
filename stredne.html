@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="pozadie">
+        <a href="main.html"><h6 class="menu"> Menu</h6></a>
         <ul class="hadanka2">
             <li> Hádanka 1</li>
             <li>Je jedno či ma používaš často alebo nie, ajtak ma každý mesiac meníš.</li>
@@ -19,8 +20,84 @@
         </ul>
         <ul class="hadanka3">
             <li> Hádanka 3</li>
-            <li>neprelozim ani za ******</li>
+            <li>Zmiznem hneď ako povieš moje meno. Čo som?</li>
         </ul>
- 
+        <form class="formular" action="#" id="formular">
+            <label for="odpoved1">Odpoveď 1</label><br>
+            <input type="text" id="odpoved1" name="odpoved1"><br>
+            <input type="submit" value="???">
+        </form>
+        <form class="formular2" action="#" id="formular2">
+            <label for="odpoved2">Odpoveď 2</label><br>
+            <input type="text" id="odpoved2" name="odpoved2"><br>
+            <input type="submit" value="???">
+        </form>
+        <form class="formular3" action="#" id="formular3">
+            <label for="odpoved3">Odpoved 3</label><br>
+            <input type="text" id="odpoved3" name="odpoved3"><br>
+            <input type="submit" value="???">
+          </form>
+          <button class="zobrazit" action="#" id="zobrazit">Ukázať odpovede</button>
+          <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+          <script>
+            $("#formular").on("submit", function(e){
+                var odpoved1= $("#odpoved1").val();
+                if(odpoved1 === "Kalendár"){
+                    alert("SPRÁVNA ODPOVEĎ");
+                    
+                }
+                else{
+                    alert("NESPRAVNA ODPOVEĎ");
+                }
+                e.preventDefault();
+            });
+          </script>
+                    <script>
+                        $("#formular2").on("submit", function(e){
+                            var odpoved2= $("#odpoved2").val();
+                            if(odpoved2 === "Vajíčko"){
+                                alert("SPRÁVNA ODPOVEĎ");
+                                
+                            }
+                            else{
+                                alert("NESPRAVNA ODPOVEĎ");
+                            }
+                            e.preventDefault();
+                        });
+                      </script>
+                                <script>
+                                    $("#formular3").on("submit", function(e){
+                                        var odpoved3= $("#odpoved3").val();
+                                        if(odpoved3 === "Ticho"){
+                                            alert("SPRÁVNA ODPOVEĎ");
+                                            
+                                        }
+                                        else{
+                                            alert("NESPRAVNA ODPOVEĎ");
+                                        }
+                                        e.preventDefault();
+                                    });
+                                  </script>
+                                                                  <script>
+                                                                    $("#formular3").on("submit", function(e){
+                                                                        var odpoved3= $("#odpoved3").val();
+                                                                        if(odpoved3 === "Obed a večeru"){
+                                                                            alert("SPRÁVNA ODPOVEĎ");
+                                                                            
+                                                                        }
+                                                                        else{
+                                                                            alert("NESPRAVNA ODPOVEĎ");
+                                                                        }
+                                                                        e.preventDefault();
+                                                                    });
+                                                                    $("#zobrazit").on("click", function(e){
+                                
+                                                    alert("1. Kalendár 2. Vajíčko 3. Ticho");
+                                
+                                                e.preventDefault();
+                                            });
+                                                                  </script>
+                                
+
 </body>
 </html>

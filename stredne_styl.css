@@ -43,3 +43,74 @@ li{
     text-decoration: none;
     list-style-type: none;
 }
+.menu{
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 8%;
+    color: orange;
+    font-size: 125%;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.formular{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 80%;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+    list-style-type: none;
+    color:orange;
+    
+
+}
+
+.formular2{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 80%;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+    list-style-type: none;
+    color:orange;
+
+}
+.formular3{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 80%;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+    list-style-type: none;
+    color:orange;
+
+}
+input[type=submit]{
+
+    background-color: transparent;
+    size: 50%;
+    color: orange;
+    border: 1%;
+    border-color: orange;
+    margin-top: 3%;
+}
+input[type=text]{
+    background-color: transparent;
+    border: 1%;
+    border-color: orange;
+    color: orange;
+}
+.zobrazit{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 45%;
+    color: orange;
+    background-color: transparent;
+    border: 1%;
+    width: 10%;
+    font-family:'Courier New', Courier, monospace;  
+
+
+}
