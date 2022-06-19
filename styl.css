@@ -9,6 +9,9 @@ body{
     width: 100%;
     height: 120vh;
 }
+.zdroje{
+    margin-top: 340%;
+}
 .nazov{
     margin-top: 5%;
     text-align: center;

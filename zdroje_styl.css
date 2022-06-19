@@ -1,0 +1,36 @@
+.pozadie{
+    margin-top: -9.76%;
+    background-image: url(riddler_background_zdroje.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+body{
+    margin: 0;
+}
+
+.zoznam{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 35%;
+    color: lawngreen;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu{
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 15%;
+    color: lawngreen;
+    font-size: 125%;
+    font-family:'Courier New', Courier, monospace;   
+    text-decoration: none;
+    list-style-type: none;
+
+}
